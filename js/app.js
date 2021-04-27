@@ -9,7 +9,7 @@ let ansWer = prompt('Do you know me?');
 
 switch( ansWer.toLowerCase()){
     case 'y':
-    case 'yas':
+    case 'yes':
         //console.log('correct.');
         alert('correct thank you'); 
         break;
@@ -23,7 +23,7 @@ switch( ansWer.toLowerCase()){
 let frOm = prompt('Do you know where I am from?');
 switch(frOm.toLowerCase()) {
     case 'y':
-    case 'yas':
+    case 'yes':
         //console.log('correct.');
         alert('correct thank you'); 
         break;
@@ -37,7 +37,7 @@ switch(frOm.toLowerCase()) {
 let oLd = prompt('Do you have an idea how old I am');
 switch ( oLd.toLowerCase()){
     case 'y':
-    case 'yas':
+    case 'yes':
         //console.log('correct.');
         alert('correct thank you'); 
         break;
@@ -51,7 +51,7 @@ switch ( oLd.toLowerCase()){
 let maJor = prompt('Do you know my college major?'); 
 switch( maJor.toLowerCase()){
     case 'y':
-    case 'yas':
+    case 'yes':
         //console.log('correct.');
         alert('correct thank you'); 
         break;
@@ -65,7 +65,7 @@ switch( maJor.toLowerCase()){
 let namUnv =prompt( 'Do you know what my university called?');
 switch (namUnv.toLowerCase()){
     case 'y':
-    case 'yas':
+    case 'yes':
         //console.log('correct.');
         alert('correct thank you'); 
         break;
