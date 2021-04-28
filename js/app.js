@@ -103,21 +103,21 @@ for (let i = 0; i < 4; i++) {
     }
 }
 let faVfru = ['Pineapple', 'cream', 'coconut', 'strawberry', 'blueberry'];
-
-for (let i = 0; i < 6; i++) {
+let ans = false ;
+for (let x = 0; x < 6; x++) {
     let fruits = prompt('What about my favorite fruits? Can you guess it , you have 6 opportunities');
     for (let i = 0; i < faVfru.length; i++) {
         if (fruits === faVfru[i]) {
             alert('yes thank you');
             count++;
+            ans = true ;
             break;
 
         }
     }
-    if (fruits !== faVfru[i]) {
-        alert('agean');
+    if (fans) {
+        break;
     }
-    break;
 }
 
 alert('ok my favorite fruits is ' + faVfru);
