@@ -5,9 +5,11 @@ let naMe = prompt('what your name please');
 
 alert('Welcome to my web page,  ' + naMe + '  please answer the questions as y/n or yes/no');
 
-let ansWer = prompt('Do you think know me?');
 let count = 0; 
 
+let ansWer = prompt('Do you think know me?');
+
+function fun1 (){
 switch (ansWer.toLowerCase()) {
     case 'y':
     case 'yes':
@@ -22,7 +24,11 @@ switch (ansWer.toLowerCase()) {
     default:
         alert(' please answer the questions as y/n or yes/no');
 
-};
+}
+}
+
+
+function fun2 (){
 let frOm = prompt('Do you  think  I am from Amman?');
 switch (frOm.toLowerCase()) {
     case 'y':
@@ -39,6 +45,10 @@ switch (frOm.toLowerCase()) {
         alert(' please answer the questions as y/n or yes/no');
 
 }
+}
+
+function fun3(){
+
 let oLd = prompt('Do you think I am twenty?');
 switch (oLd.toLowerCase()) {
     case 'y':
@@ -55,6 +65,9 @@ switch (oLd.toLowerCase()) {
         alert(' please answer the questions as y/n or yes/no');
 
 }
+}
+
+function fun4(){
 let maJor = prompt('Did you think I graduate in programming??');
 switch (maJor.toLowerCase()) {
     case 'y':
@@ -71,6 +84,9 @@ switch (maJor.toLowerCase()) {
         alert(' please answer the questions as y/n or yes/no');
 
 }
+}
+
+function fun5(){
 let namUnv = prompt('Do you think Al-Hussein Bin Talal University is my university?');
 switch (namUnv.toLowerCase()) {
     case 'y':
@@ -87,6 +103,9 @@ switch (namUnv.toLowerCase()) {
         alert(' please answer the questions as y/n or yes/no');
 
 }
+}
+
+function fun6(){
 for (let i = 0; i < 4; i++) {
     let nUmch = prompt('Can you guess how many children I have? Please enter a number from 1 - 10 ,you have 4 opportunities');
     if (nUmch > 2) {
@@ -102,6 +121,10 @@ for (let i = 0; i < 4; i++) {
         alert('ok.... you Loser i have 2 children ');
     }
 }
+}
+
+
+function fun7(){
 let faVfru = ['Pineapple', 'cream', 'coconut', 'strawberry', 'blueberry'];
 let ans = false ;
 for (let x = 0; x < 6; x++) {
@@ -120,8 +143,20 @@ for (let x = 0; x < 6; x++) {
     }
     alert('please try again');
 }
-
 alert('ok my favorite fruits is ' + faVfru);
+}
+
+fun1();
+fun2();
+fun3();
+fun4();
+fun5();
+fun6();
+fun7();
+
+
 alert('Thank you  ' + naMe + '  your scor is ' + count);
 
+
 document.write('Thank you very much ' + naMe + 'I hope you enjoyed it');
+

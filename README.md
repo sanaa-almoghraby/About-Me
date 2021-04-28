@@ -12,3 +12,8 @@
 * add some tage in html bage
 *  add some of css
 
+## pair programing :
+* **driver** : Osama Momani
+* **Navigator** : Sana'a Almoghraby
+
+
