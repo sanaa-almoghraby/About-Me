@@ -32,3 +32,18 @@ body p{
     list-style-type: none;
     color: rgb(6, 6, 41);
 }
+main nav{
+    border: 15px solid rgb(61, 119, 61);
+    padding: 50px;
+    margin: 20px;
+    
+}
+main nav ul {
+    border: 15px solid rgb(41, 46, 28);
+    padding: 50px;
+    margin: 20px;
+
+}
+nav h2 {
+    font-size: 200%;
+}
