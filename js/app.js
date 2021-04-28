@@ -115,9 +115,10 @@ for (let x = 0; x < 6; x++) {
 
         }
     }
-    if (fans) {
+    if (ans) {
         break;
     }
+    alert('please try again');
 }
 
 alert('ok my favorite fruits is ' + faVfru);
