@@ -1,12 +1,4 @@
-/*footer ul li {
-    width: 80px;
-    height:20px;
-    border-radius: 30%;
-
-}
-*/
 header h1{
-    /*font-family: Arial, Helvetica, sans-serif;*/
     text-align: center;
     color: rgb(77, 46, 7);
     font-size: 200%;
@@ -28,22 +20,38 @@ body p{
     margin: 20px;
     text-align: center;
 }
-#information{
-    list-style-type: none;
-    color: rgb(6, 6, 41);
-}
-main nav{
+#firstlist{
     border: 15px solid rgb(61, 119, 61);
     padding: 50px;
-    margin: 20px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+.information{
+    color: rgba(161, 54, 27, 0.678);
+    font-size: 200%;
+}
+#secundlist{
+    border: 15px solid rgb(61, 119, 61);
+    padding: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
     
 }
-main nav ul {
+#final{
+    border: 15px solid rgb(61, 119, 61);
+    padding: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    
+}
+#ulist {
     border: 15px solid rgb(41, 46, 28);
     padding: 50px;
     margin: 20px;
-
-}
-nav h2 {
-    font-size: 200%;
+    border-style: dotted;
+    border-width: thick;
 }
